@@ -30,8 +30,7 @@ class GenAppStack(Stack):
         ecr_repository = ecr.Repository(
             self,
             "EcrRepo",
-            repository_name=f"{
-                resource_name}-assets-{account_id}-{region}",
+            repository_name=f"{resource_name}-assets-{account_id}-{region}",
             removal_policy=RemovalPolicy.DESTROY,
             empty_on_delete=True)
 

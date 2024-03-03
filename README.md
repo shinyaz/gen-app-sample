@@ -43,5 +43,8 @@ pip install -r requirements.txt
 # (Option) CDK Bootstrap
 # cdk bootstrap
 
+# (Option) Use Finch instead of Docker
+# export CDK_DOCKER=finch
+
 cdk deploy
 ```
